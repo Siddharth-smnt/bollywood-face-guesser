@@ -1,0 +1,13 @@
+# Deployment target: CPython 3.11, Windows x64 or Linux x86_64.
+# Tested primary packages; constraints.txt records the resolved Linux versions.
+-c constraints.txt
+tensorflow-cpu==2.15.1
+keras==2.15.0
+keras-vggface==0.6
+keras-applications==1.0.8
+mtcnn==0.1.0
+numpy==1.26.4
+Pillow==9.5.0
+opencv-python==4.8.1.78
+streamlit==1.41.1
+setuptools==75.8.0

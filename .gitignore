@@ -1,0 +1,11 @@
+.venv*/
+venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+/data/
+sample/
+models/*.h5
+*.zip
+gallery_report.json
+.DS_Store
